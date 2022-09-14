@@ -26,6 +26,7 @@ body * {
 }
 
 .left-login {
+	/* ocupando metade da largura e toda a altura respectivamente. */
 	width: 50vw;
 	height: 100vh;
 
@@ -33,13 +34,13 @@ body * {
 	justify-content: center;
 	align-items: center;
 
-	/* colocando os elementos na vertical, como uma coluna. serve para colocar os elementos um embaixo do outro. */
+	/* posicionando os elementos embaixo do outro. */
 	flex-direction: column;
 }
 
 .left-login h1 {
 	color: #77ffc0;
-	font-size: 3vw;
+	font-size: 3rem;
 }
 
 .left-login-image {
@@ -47,6 +48,7 @@ body * {
 }
 
 .right-login {
+	/* ocupando metade da largura e toda a altura respectivamente. */
 	width: 50vw;
 	height: 100vh;
 
