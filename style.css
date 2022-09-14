@@ -7,7 +7,7 @@ body {
 
 /* aplicando estilo para todos os elementos dentro de body. */
 body * {
-	/* os elementos não irão ultrapassar o tamanho do elemento pai, neste caso, o body. */
+	/* todos os elementos filhos não irão ultrapassar o tamanho do elemento pai, neste caso, o body. */
 	box-sizing: border-box;
 }
 
